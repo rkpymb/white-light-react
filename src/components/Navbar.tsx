@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, Search, ShoppingCart } from 'lucide-react';
-
+import navlogo1 from "../../pictures/navlogo.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav className="navbar">
         {/* Left Section: Logo */}
         <div className="nav-left">
-          <img src="main/White light A6-1.png" height="50px" width="60px" />
+          <img src={navlogo1} height="50px" width="60px" />
           <Link to="/" className="logo-text">
             White Light
           </Link>
