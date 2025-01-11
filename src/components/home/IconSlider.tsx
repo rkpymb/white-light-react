@@ -1,16 +1,23 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import commercial from "../../../pictures/comerical.png"
+import panneldown from "../../../pictures/panneldown.png"
+import arti from "../../../pictures/arti.png"
+import Categories_chandeliers_2 from "../../../pictures/Categories_chandeliers_2.png"
+import pannel from "../../../pictures/pannel.png"
+import garden from "../../../pictures/garden.png"
+import highbay from "../../../pictures/highbay.png"
 
 const IconSlider = () => {
   const icons = [
     
-    { name: 'CommercialLights', image: 'main/comerical.png' },
-    { name: 'PannelDownLight', image: 'main/panneldown.png'  },
-    { name: 'Architecturallight', image: 'main/arti.png' },
-    { name: 'Cylinderlight', image: 'main/Categories_chandeliers_2.png' }, 
-    { name: 'PanelLight', image: 'main/pannel.png' },
-    { name: 'GardenLights ', image: 'main/garden.png'  },
-    { name: 'High-bayLight.', image: 'main/highbay.png'  },
+    { name: 'CommercialLights', image: commercial },
+    { name: 'PannelDownLight', image: panneldown  },
+    { name: 'Architecturallight', image: arti },
+    { name: 'Cylinderlight', image: Categories_chandeliers_2 }, 
+    { name: 'PanelLight', image: pannel },
+    { name: 'GardenLights ', image: garden  },
+    { name: 'High-bayLight.', image: highbay },
     // { name: ' ', image: 'src/components/home/main/slider-banner/banner5.jpg', link: '/DomSpotlight' },
   ];
 

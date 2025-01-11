@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import "../styles/product.css";
+import fisheye from "../../pictures/category/fisheye.png"
+import blackHole from "../../pictures/category/blackHole.png"
+import garden from "../../pictures/garden.png"
 
 interface Product {
   id: number;
@@ -17,7 +20,7 @@ const products: Product[] = [
     category: "Dome",
     price: "$36.00",
     image:
-      "main/category/HD IMAGES 24/DOME SERIES/12W DOME SURFACE/12W DOME ROUND SURFACE  FISH EYE.png",
+    fisheye,
     backgroundColor: "bg-blue-900",
   },
   {
@@ -26,7 +29,7 @@ const products: Product[] = [
     category: "DOME SERIES",
     price: "$45.00",
     image:
-      "main/category/HD IMAGES 24/DOME SERIES/12W DOME/12W DOME  BLACK HOLE BLACK.png",
+    blackHole,
     backgroundColor: "bg-red-900",
   },
   {
@@ -35,7 +38,7 @@ const products: Product[] = [
     category: "Garden Light",
     price: "$68.50",
     image:
-      "main/garden.png",
+      garden,
     backgroundColor: "bg-orange-500",
   },
   {
@@ -44,7 +47,7 @@ const products: Product[] = [
     category: "",
     price: "$68.50",
     image:
-      "main/category/HD IMAGES 24/DOME SERIES/12W DOME SURFACE/12W DOME ROUND SURFACE  FISH EYE.png",
+    fisheye,
     backgroundColor: "bg-orange-900",
   },
 ];
