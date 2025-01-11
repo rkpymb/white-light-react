@@ -10,13 +10,14 @@ import ParallaxPage from './components/home/subCat';
 import CarouselAndCategories from './components/subsubcat'; 
 import Pesto from './components/products';
 import Kart from './components/kart';
-
+import image1 from "../pictures/image1.png"
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-100">
         <Navbar/>
         
+      <img src={image1} alt="" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product/:id" element={<ProductPage />} />  
