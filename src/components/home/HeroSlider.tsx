@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react'; 
+import { useEffect, useState } from 'react'; 
 import image2 from "../../../pictures/special/slide1.jpg"
 import homedecor from "../../../pictures/special/homedecor.jpg"
-import banner from "../../../pictures/main-banner.png"
+import banner from "../../../pictures/mainbanner.png"
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
