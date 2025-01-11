@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'; 
+// import image2 from "../../../pictures/special/WhatsApp Image 2024-12-23 at 00.33.13_5e40ade4.jpg"
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
-    ' main/special/WhatsApp Image 2024-12-23 at 00.33.13_5e40ade4.jpg',
-     ' main/special/homedecor.jpg', 
+    '../../../pictures/special/WhatsApp Image 2024-12-23 at 00.33.13_5e40ade4.jpg',
+     'main/special/homedecor.jpg', 
      'main/main-banner.png',
     
   ];
