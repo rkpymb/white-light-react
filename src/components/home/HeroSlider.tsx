@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react'; 
 import image2 from "../../../pictures/special/slide1.jpg"
+import homedecor from "../../../pictures/special/homedecor.jpg"
+import banner from "../../../pictures/main-banner.png"
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
     image2,
-     'main/special/homedecor.jpg', 
-     'main/main-banner.png',
+    homedecor,
+    banner,
     
   ];
 
