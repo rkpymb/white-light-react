@@ -10,25 +10,25 @@ export const categories = [
        {
          name:"zoom-light",
          title: "zoom-light",
-         imgSrc: "//lights/zoomlight/zoomlight (1).png",
+         imgSrc: "/lights/zoomlight/zoomlight (1).png",
          description: "Contemporary designs for modern living spaces.",
          link: "#",
          subsubcategories: [
            {
              name:"zoom-light",
              title: "zoom-light",
-             imgSrc: "//lights/zoomlight/zoomlight (1).png",
+             imgSrc: "/lights/zoomlight/zoomlight (1).png",
              description: "Sleek and stylish glass pendant lights.",
              link: "#",
              products: [
-              { id: 1, name: "MODEL NO:ZOOM10", imgSrc: "//lights/zoomlight/zoomlight (1).png",link: "#", originalPrice: "$199", price: "$149" ,height:"",},
-{ id: 2, name: "Frosted Glass Pendant", imgSrc: "//lights/zoomlight/zoomlight (2).png",link: "#", originalPrice: "$249", price: "$199" },
-{ id: 3, name: "Frosted Glass Pendant", imgSrc: "//lights/zoomlight/zoomlight (3).png",link: "#", originalPrice: "$249", price: "$199" },
+              { id: 1, name: "MODEL NO:ZOOM10", imgSrc: "/lights/zoomlight/zoomlight (1).png",link: "#", originalPrice: "$199", price: "$149" ,height:"",},
+{ id: 2, name: "Frosted Glass Pendant", imgSrc: "/lights/zoomlight/zoomlight (2).png",link: "#", originalPrice: "$249", price: "$199" },
+{ id: 3, name: "Frosted Glass Pendant", imgSrc: "/lights/zoomlight/zoomlight (3).png",link: "#", originalPrice: "$249", price: "$199" },
 ],
            },
            {
              title: "zoom-gimble",
-             imgSrc: "//lights/zoomlight/zoomgimble (4).png",
+             imgSrc: "/lights/zoomlight/zoomgimble (4).png",
              description: "Durable and timeless metal designs.",
              link: "#",
              products: [
@@ -85,7 +85,7 @@ export const categories = [
                 name:"Architectural light",
                  title: "Architecturallight",
                  video:"/main/122.mp4",
-                 imgSrc: "/main/arti.png",
+                 imgSrc: "/pictures/arti.png",
                  description: "Elegant pendant lights to elevate your home decor.",
                  link: "#",
                  subcategories: [
