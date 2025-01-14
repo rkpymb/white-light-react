@@ -19,7 +19,7 @@ const MagneticTrackLight: React.FC = () => {
         <div className="magnetic-banner">
           <img
           width={"50px"}
-            src="main/special/Image 2024-02-14 at 4.19.42 AM (1).jpeg"
+            src="/main/special/Image 2024-02-14 at 4.19.42 AM (1).jpeg"
             alt="Magnetic Track Light"
             className="banner-image"
           />
