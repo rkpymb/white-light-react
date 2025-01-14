@@ -6,7 +6,7 @@ import banner from "../../../pictures/mainbanner.png"
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
-    "../../../pictures/special/slide1.jpg",
+    "/pictures/special/slide1.jpg",
     homedecor,
     banner,
     
