@@ -5,7 +5,7 @@ const VideoSection = () => {
     <section className="video-section">
       {/* Background Video */}
       <video autoPlay muted loop className="background-video">
-        <source src="src/components/home/main/122.mp4" type="video/mp4" />
+        <source src="/main/122.mp4" type="video/mp4" />
         
       </video>
       
