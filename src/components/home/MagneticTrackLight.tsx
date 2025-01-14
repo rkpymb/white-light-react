@@ -6,10 +6,10 @@ interface GridItem {
 }
 
 const gridItems: GridItem[] = [
-  { img: "src/components/home/main/Magnet/6x2_double_tiltable_laser-transformed.png", alt: "Light 1" },
-  { img: "src/components/home/main/Magnet/GLANZA WALL WASHER BLACK.jpg", alt: "Light 2" },
-  { img: "src/components/home/main/Magnet/GUN METAL DEEP CONE.jpeg", alt: "Light 3" },
-  { img: "src/components/home/main/Magnet/JAZZ..jpeg", alt: "Light 4" },
+  { img: "/main/Magnet/6x2_double_tiltable_laser-transformed.png", alt: "Light 1" },
+  { img: "/main/Magnet/GLANZA WALL WASHER BLACK.jpg", alt: "Light 2" },
+  { img: "/main/Magnet/GUN METAL DEEP CONE.jpeg", alt: "Light 3" },
+  { img: "/main/Magnet/JAZZ..jpeg", alt: "Light 4" },
 ];
 
 const MagneticTrackLight: React.FC = () => {
