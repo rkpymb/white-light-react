@@ -6,7 +6,7 @@ export const products = [
     discount: 20,
     shortDescription: "MODEL NO LE111- RTD",
     description: " MODEL NO LE111- RTD",
-    image: "../../main/category/12x2 double tiltable laser black.png",
+    image: "/lights/DEEP CONE SPOT LIGHT/DEEP CONE SPOT LIGHT (1).png",
     hoverImage: "src/components/home/main/slider-banner/banner2.jpg",
     additionalImages: [
       "../../main/New folder/SUNFLOWER.jpeg",
