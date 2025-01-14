@@ -256,12 +256,12 @@ export const products1 = [
     discount: 20,
     shortDescription: "Elegant crystal chandelier with modern design",
     description: "Light is a form of energy essential for life on Earth, traveling as electromagnetic waves. It enables vision, drives photosynthesis, and influences biological rhythms. The Sun is the primary natural source, while artificial sources like bulbs and LEDs illuminate our modern world. Light exhibits fascinating properties like reflection, refraction, and dispersion, creating rainbows and optical illusions. It powers technology, including fiber optics, lasers, and solar panels. Culturally, light symbolizes hope, knowledge, and enlightenment. From guiding ships with lighthouses to advancing medicine with lasers, light continues to shape human progress while connecting us to the beauty of the natural world.",
-    image: "/pictures/category/HD IMAGES 24/DOME SERIES/12W DOME/12W DOME  BLACK.png",
-    hoverImage: "/pictures/slider-banner/banner2.jpg",
+    image: "//pictures/category/HD IMAGES 24/DOME SERIES/12W DOME/12W DOME  BLACK.png",
+    hoverImage: "//pictures/slider-banner/banner2.jpg",
     additionalImages: [
-      "main/New folder/SUNFLOWER.jpeg",
-      "main/category/GLANZA SQUARE/GLANZA SQ BLACK ROSE GOLD.jpg",
-      "/pictures/slider-banner/banner6.jpg"
+      "/pictures/New folder/SUNFLOWER.jpeg",
+      "/pictures/category/GLANZA SQUARE/GLANZA SQ BLACK ROSE GOLD.jpg",
+      "//pictures/slider-banner/banner6.jpg"
     ]
   },
   
@@ -272,8 +272,8 @@ export const products1 = [
     discount: 10,
     shortDescription: "Contemporary pendant light set",
     description: "Set of three contemporary pendant lights with adjustable heights. Perfect for kitchen islands and dining areas.",
-    image: " /pictures/category/EXTRA DEEP CONE 3-6.jpeg",
-    hoverImage: "/pictures/slider-banner/banner2.jpg",
+    image: " //pictures/category/EXTRA DEEP CONE 3-6.jpeg",
+    hoverImage: "//pictures/slider-banner/banner2.jpg",
     additionalImages: [
       "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?auto=format&fit=crop&q=80",
@@ -287,8 +287,8 @@ export const products1 = [
     discount: 10,
     shortDescription: "Contemporary pendant light set",
     description: "Set of three contemporary pendant lights with adjustable heights. Perfect for kitchen islands and dining areas.",
-    image: "main/New folder/AQUA IP65 DIMENSIONS.jpeg",
-    hoverImage: "/pictures/slider-banner/banner2.jpg",
+    image: "/pictures/New folder/AQUA IP65 DIMENSIONS.jpeg",
+    hoverImage: "//pictures/slider-banner/banner2.jpg",
     additionalImages: [
       "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?auto=format&fit=crop&q=80",
@@ -302,12 +302,12 @@ export const products1 = [
     discount: 10,
     shortDescription: "Contemporary pendant light set",
     description: "Set of three contemporary pendant lights with adjustable heights. Perfect for kitchen islands and dining areas.",
-    image: "/pictures/slider-banner/banner4.jpg",
-    hoverImage: "/pictures/slider-banner/banner2.jpg",
+    image: "//pictures/slider-banner/banner4.jpg",
+    hoverImage: "//pictures/slider-banner/banner2.jpg",
     additionalImages: [
-      "/pictures/slider-banner/banner1.jpg",
-      "/pictures/slider-banner/banner1.jpg",
-      "/pictures/slider-banner/banner1.jpg"
+      "//pictures/slider-banner/banner1.jpg",
+      "//pictures/slider-banner/banner1.jpg",
+      "//pictures/slider-banner/banner1.jpg"
     ]
   },
   {
@@ -317,12 +317,12 @@ export const products1 = [
     discount: 20,
     shortDescription: "Elegant crystal chandelier with modern design",
     description: "Light is a form of energy essential for life on Earth, traveling as electromagnetic waves. It enables vision, drives photosynthesis, and influences biological rhythms. The Sun is the primary natural source, while artificial sources like bulbs and LEDs illuminate our modern world. Light exhibits fascinating properties like reflection, refraction, and dispersion, creating rainbows and optical illusions. It powers technology, including fiber optics, lasers, and solar panels. Culturally, light symbolizes hope, knowledge, and enlightenment. From guiding ships with lighthouses to advancing medicine with lasers, light continues to shape human progress while connecting us to the beauty of the natural world.",
-    image: "main/New folder/SUNFLOWER.jpeg",
-    hoverImage: "/pictures/slider-banner/banner2.jpg",
+    image: "/pictures/New folder/SUNFLOWER.jpeg",
+    hoverImage: "//pictures/slider-banner/banner2.jpg",
     additionalImages: [
-      "main/category/GLANZA SQUARE/GLANZA SQ BLACK CHROME.jpg",
-      "main/category/GLANZA SQUARE/GLANZA SQ BLACK ROSE GOLD.jpg",
-      "/pictures/slider-banner/banner6.jpg"
+      "/pictures/category/GLANZA SQUARE/GLANZA SQ BLACK CHROME.jpg",
+      "/pictures/category/GLANZA SQUARE/GLANZA SQ BLACK ROSE GOLD.jpg",
+      "//pictures/slider-banner/banner6.jpg"
     ]
   },
   {
@@ -332,12 +332,12 @@ export const products1 = [
     discount: 20,
     shortDescription: "Elegant crystal chandelier with modern design",
     description: "Light is a form of energy essential for life on Earth, traveling as electromagnetic waves. It enables vision, drives photosynthesis, and influences biological rhythms. The Sun is the primary natural source, while artificial sources like bulbs and LEDs illuminate our modern world. Light exhibits fascinating properties like reflection, refraction, and dispersion, creating rainbows and optical illusions. It powers technology, including fiber optics, lasers, and solar panels. Culturally, light symbolizes hope, knowledge, and enlightenment. From guiding ships with lighthouses to advancing medicine with lasers, light continues to shape human progress while connecting us to the beauty of the natural world.",
-    image: "main/New folder/SUNFLOWER.jpeg",
-    hoverImage: "/pictures/slider-banner/banner2.jpg",
+    image: "/pictures/New folder/SUNFLOWER.jpeg",
+    hoverImage: "//pictures/slider-banner/banner2.jpg",
     additionalImages: [
-      "main/category/GLANZA SQUARE/GLANZA SQ BLACK CHROME.jpg",
-      "main/category/GLANZA SQUARE/GLANZA SQ BLACK ROSE GOLD.jpg",
-      "/pictures/slider-banner/banner6.jpg"
+      "/pictures/category/GLANZA SQUARE/GLANZA SQ BLACK CHROME.jpg",
+      "/pictures/category/GLANZA SQUARE/GLANZA SQ BLACK ROSE GOLD.jpg",
+      "//pictures/slider-banner/banner6.jpg"
     ]
   },
   
@@ -345,6 +345,7 @@ export const products1 = [
    
    
 ];
+
 
 
 

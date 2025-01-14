@@ -4,32 +4,32 @@ const DecorativeLightingD = () => {
   const categories = [
     {
       name: "Garden Light",
-      imgSrc: "main/garden.png ",
+      imgSrc: "/pictures/garden.png ",
       hoverImgSrc: " ", // Hover image
     },
     {
       name: "GLANZA SERIES",
-      imgSrc: "main/category/GLANZA TALL/25W GLANZA TALL WITH ELLIPSES RING.jpeg ",
-      hoverImgSrc: "main/garden.png",
+      imgSrc: "/pictures/category/GLANZA TALL/25W GLANZA TALL WITH ELLIPSES RING.jpeg ",
+      hoverImgSrc: "pictures/garden.png",
     },
     {
       name: "DOME SERIES",
-      imgSrc: "main/category/HD IMAGES 24/DOME SERIES/12W DOME CONCEALED/12W DOME CONCEALED BLACK HOLE.png",
+      imgSrc: "/pictures/category/HD IMAGES 24/DOME SERIES/12W DOME CONCEALED/12W DOME CONCEALED BLACK HOLE.png",
       hoverImgSrc: "https://via.placeholder.com/100/00FF00",
     },
     {
       name: "COB SPOTLIGHT",
-      imgSrc: "main/category/╗¡░σ 1 ┐╜▒┤ 6-7.jpg",
+      imgSrc: "/pictures/category/╗¡░σ 1 ┐╜▒┤ 6-7.jpg",
       hoverImgSrc: "https://via.placeholder.com/100/FFFF00",
     },
     {
       name: "PULLOUT SERIES",
-      imgSrc: "main/category/GIMBAL 30W.png",
+      imgSrc: "/pictures/category/GIMBAL 30W.png",
       hoverImgSrc: "https://via.placeholder.com/100/FF00FF",
     },
     {
       name: "LASER BLADE SERIES",
-      imgSrc: "main/category/MINI BLACK.jpeg",
+      imgSrc: "/pictures/category/MINI BLACK.jpeg",
       hoverImgSrc: "https://via.placeholder.com/100/00FFFF",
     },
   ];
