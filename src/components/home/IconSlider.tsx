@@ -11,9 +11,9 @@ import highbay from "../../../pictures/highbay.png"
 const IconSlider = () => {
   const icons = [
     
-    { name: 'CommercialLights', image: commercial },
-    { name: 'PannelDownLight', image: panneldown  },
-    { name: 'Architecturallight', image: arti },
+    { name: 'CommercialLights', image:commercial },
+    { name: 'PannelDownLight', image:panneldown  },
+    { name: 'Architecturallight', image:arti },
     { name: 'Cylinderlight', image: Categories_chandeliers_2 }, 
     { name: 'PanelLight', image: pannel },
     { name: 'GardenLights ', image: garden  },

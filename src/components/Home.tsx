@@ -13,7 +13,8 @@ import WaveGrid from './home/WaveGrid';
 import MagneticTrackLight from './home/MagneticTrackLight';
 
 import ClientCategories from './home/ClientCategories';
-
+import bannerr from "../../../pictures/"
+main/category/CHAMP TILTABLE (LOW HEIGHT TILTABLE)/DSC_4166.JPG
 
 // import DecorativeLighting from './cards'; 
 // import LightingCard from './cardsM';
@@ -44,7 +45,7 @@ const Home = () => {
       <ProductGrid1 /> 
 
       <Banner
-        imageUrl="main/category/CHAMP TILTABLE (LOW HEIGHT TILTABLE)/DSC_4166.JPG"
+        imageUrl=""
         altText="Sample Banner"
         width="100%"
         height="700px"
