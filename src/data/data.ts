@@ -2,7 +2,7 @@ export const categories = [
   {
     name:"commercialledlight",
      title: "CommercialLights",
-     video:"../src/components/home/main/122.mp4",
+     video:"/main/122.mp4",
      imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Wall_light_Desktop_61ae4eb1-d899-4dce-823d-f4b024d838f7.jpg?v=1734319596&width=5760",
      description: "",
      link: "#",
@@ -10,25 +10,25 @@ export const categories = [
        {
          name:"zoom-light",
          title: "zoom-light",
-         imgSrc: "../../lights/zoomlight/zoomlight (1).png",
+         imgSrc: "//lights/zoomlight/zoomlight (1).png",
          description: "Contemporary designs for modern living spaces.",
          link: "#",
          subsubcategories: [
            {
              name:"zoom-light",
              title: "zoom-light",
-             imgSrc: "../../lights/zoomlight/zoomlight (1).png",
+             imgSrc: "//lights/zoomlight/zoomlight (1).png",
              description: "Sleek and stylish glass pendant lights.",
              link: "#",
              products: [
-              { id: 1, name: "MODEL NO:ZOOM10", imgSrc: "../../lights/zoomlight/zoomlight (1).png",link: "#", originalPrice: "$199", price: "$149" ,height:"",},
-{ id: 2, name: "Frosted Glass Pendant", imgSrc: "../../lights/zoomlight/zoomlight (2).png",link: "#", originalPrice: "$249", price: "$199" },
-{ id: 3, name: "Frosted Glass Pendant", imgSrc: "../../lights/zoomlight/zoomlight (3).png",link: "#", originalPrice: "$249", price: "$199" },
+              { id: 1, name: "MODEL NO:ZOOM10", imgSrc: "//lights/zoomlight/zoomlight (1).png",link: "#", originalPrice: "$199", price: "$149" ,height:"",},
+{ id: 2, name: "Frosted Glass Pendant", imgSrc: "//lights/zoomlight/zoomlight (2).png",link: "#", originalPrice: "$249", price: "$199" },
+{ id: 3, name: "Frosted Glass Pendant", imgSrc: "//lights/zoomlight/zoomlight (3).png",link: "#", originalPrice: "$249", price: "$199" },
 ],
            },
            {
              title: "zoom-gimble",
-             imgSrc: "../../lights/zoomlight/zoomgimble (4).png",
+             imgSrc: "//lights/zoomlight/zoomgimble (4).png",
              description: "Durable and timeless metal designs.",
              link: "#",
              products: [
@@ -84,8 +84,8 @@ export const categories = [
                {
                 name:"Architectural light",
                  title: "Architecturallight",
-                 video:"../src/components/home/main/122.mp4",
-                 imgSrc: "../../main/arti.png",
+                 video:"/main/122.mp4",
+                 imgSrc: "/main/arti.png",
                  description: "Elegant pendant lights to elevate your home decor.",
                  link: "#",
                  subcategories: [
@@ -93,7 +93,7 @@ export const categories = [
                      name:"DOWNLIGHT",
                      title: "PESTOSERIES",
                     
-                     imgSrc: "../../main/category/ECO-1.jpeg",
+                     imgSrc: "/main/category/ECO-1.jpeg",
                      description: "Contemporary designs for modern living spaces.",
                      link: "#",
                      subsubcategories: [
@@ -104,25 +104,25 @@ export const categories = [
                          description: "Sleek and stylish glass pendant lights.",
                          link: "#",
                          products: [
-                          // { id: 2, name: "5W (5way)", imgSrc: "../../main/category/HD IMAGES 24/DOME SERIES/12W DOME CONCEALED/12W DOME CONCEALED BLACK HOLE 1.png",link: "#", originalPrice: "2000Rs", price: "2000rs" },
+                          // { id: 2, name: "5W (5way)", imgSrc: "/main/category/HD IMAGES 24/DOME SERIES/12W DOME CONCEALED/12W DOME CONCEALED BLACK HOLE 1.png",link: "#", originalPrice: "2000Rs", price: "2000rs" },
                           { id: 1,  name: "10W(10Way SQ)",
                             wattage: "5W",
                             height:"150mm X47 mm",
                             diameter: "",
                             cutouts:"",
-                             imgSrc: "../../main/category/3fc95a53-fc7f-4c96-a021-2b97d46e5b85.png",link: "#", originalPrice: "$249", price: "500rs" },
+                             imgSrc: "/main/category/3fc95a53-fc7f-4c96-a021-2b97d46e5b85.png",link: "#", originalPrice: "$249", price: "500rs" },
                           { id: 2, name: "5W (5way)",
                              Wattage: "",
                             Height:"",
                             Diameter: "",
                             Cutouts:"",
-                            imgSrc: "../../main/category/WhatsApp Image 2024-02-14 at 4.19.46 AM (2).jpeg",link: "#", originalPrice: "$299", price: "800rs" }, 
+                            imgSrc: "/main/category/WhatsApp Image 2024-02-14 at 4.19.46 AM (2).jpeg",link: "#", originalPrice: "$299", price: "800rs" }, 
                           { id: 3, name: " 9W(9way)",
                              Wattage: "",
                             Height:"",
                             Diameter: "",
                             Cutouts:"",
-                            imgSrc: "../../main/category/GIMBAL 30W.png",link: "#", originalPrice: "$199", price: "900rs" },
+                            imgSrc: "/main/category/GIMBAL 30W.png",link: "#", originalPrice: "$199", price: "900rs" },
                           ],
                        },
                        {
@@ -170,7 +170,7 @@ export const categories = [
                     name:"DOMSERIES-SERIES",
                     title: "DOMSERIES",
                    
-                    imgSrc: "../../main/category/HD IMAGES 24/DOME SERIES/12W DOME/12W DOME  FISH EYE BLACK.png",
+                    imgSrc: "/main/category/HD IMAGES 24/DOME SERIES/12W DOME/12W DOME  FISH EYE BLACK.png",
                     description: "Contemporary designs for modern living spaces.",
                     link: "#",
                     subsubcategories: [
@@ -181,10 +181,10 @@ export const categories = [
                         description: "Sleek and stylish glass pendant lights.",
                         link: "#",
                         products: [
-                         { id: 1, name: "DOME-TRIMLESS",imgSrc: "../../main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS FOCUSING.png", link: "#", originalPrice: "$199", price: "$149" },
-                         { id: 2, name: "12W-DOME-SURFACE", imgSrc:"../../main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS  FISH EYE.png",link: "#", originalPrice: "$249", price: "$199" },
-                         { id: 3, name: " 12W DOME TRIMLESS SNOUT", imgSrc: " ../../main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS SNOUT.png",link: "#", originalPrice: "$299", price: "$249" }, 
-                         { id: 4, name: "12W DOME TRIMLESS", imgSrc: "../../main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS.png",link: "#", originalPrice: "$199", price: "$149" },
+                         { id: 1, name: "DOME-TRIMLESS",imgSrc: "/main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS FOCUSING.png", link: "#", originalPrice: "$199", price: "$149" },
+                         { id: 2, name: "12W-DOME-SURFACE", imgSrc:"/main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS  FISH EYE.png",link: "#", originalPrice: "$249", price: "$199" },
+                         { id: 3, name: " 12W DOME TRIMLESS SNOUT", imgSrc: " /main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS SNOUT.png",link: "#", originalPrice: "$299", price: "$249" }, 
+                         { id: 4, name: "12W DOME TRIMLESS", imgSrc: "/main/category/HD IMAGES 24/DOME SERIES/12W DOME TRIMLESS/12W DOME TRIMLESS.png",link: "#", originalPrice: "$199", price: "$149" },
                     
                     ],
                       },
@@ -260,7 +260,7 @@ export const categories = [
                     name:"GLANZA-SERIES",
                     title: "GLANZASERIES",
                    
-                    imgSrc: "../../main/category/GIMBAL 30X2W.png",
+                    imgSrc: "/main/category/GIMBAL 30X2W.png",
                     description: "Contemporary designs for modern living spaces.",
                     link: "#",
                     subsubcategories: [
@@ -271,11 +271,11 @@ export const categories = [
                         description: "Sleek and stylish glass pendant lights.",
                         link: "#",
                         products: [
-                         { id: 1, name: "GLANZA SQ WHITE CHROME", imgSrc: "../../main/category/GLANZA SQUARE/GLANZA SQ BLACK CHROME.jpg",link: "#", originalPrice: "$199", price: "$149" },
-                         { id: 2, name: "GLANZA SQ BLACK BLACK", imgSrc: "../../main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",link: "#", originalPrice: "$249", price: "$199" },
-                         { id: 3, name: "GLANZA SQ BLACK ROSE GOLD", imgSrc: "../../main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",link: "#", originalPrice: "$299", price: "$249" }, 
-                         { id: 4, name: "GLANZA SQ BLACK SHINING BLACK", imgSrc: "../../main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",link: "#", originalPrice: "$199", price: "$149" },
-                         { id: 5, name: "Frosted Glass Pendant", imgSrc: "../../main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",},
+                         { id: 1, name: "GLANZA SQ WHITE CHROME", imgSrc: "/main/category/GLANZA SQUARE/GLANZA SQ BLACK CHROME.jpg",link: "#", originalPrice: "$199", price: "$149" },
+                         { id: 2, name: "GLANZA SQ BLACK BLACK", imgSrc: "/main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",link: "#", originalPrice: "$249", price: "$199" },
+                         { id: 3, name: "GLANZA SQ BLACK ROSE GOLD", imgSrc: "/main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",link: "#", originalPrice: "$299", price: "$249" }, 
+                         { id: 4, name: "GLANZA SQ BLACK SHINING BLACK", imgSrc: "/main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",link: "#", originalPrice: "$199", price: "$149" },
+                         { id: 5, name: "Frosted Glass Pendant", imgSrc: "/main/category/GLANZA SQUARE/GLANZA SQ BLACK BLACK.jpg",},
                          { id: 6, name: "Textured Glass Pendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$299", price: "$249" },  
                      ],
                       },
@@ -299,7 +299,7 @@ export const categories = [
                     name:"PULLOUT-SERIES",
                     title: "DOMSERIES",
                    
-                    imgSrc: "../../main/category/HD IMAGES 24/DOME SERIES/12W DOME SURFACE/12W DOME ROUND SURFACE SNOUT.png ",
+                    imgSrc: "/main/category/HD IMAGES 24/DOME SERIES/12W DOME SURFACE/12W DOME ROUND SURFACE SNOUT.png ",
                     description: "Contemporary designs for modern living spaces.",
                     link: "#",
                     subsubcategories: [
@@ -310,7 +310,7 @@ export const categories = [
                         description: "Sleek and stylish glass pendant lights.",
                         link: "#",
                         products: [
-                         { id: 1, name: "DOME-TRIMLESS", imgSrc: "../../main/category/12x2 double tiltable laser black.png",link: "#", originalPrice: "$199", price: "$149" },
+                         { id: 1, name: "DOME-TRIMLESS", imgSrc: "/main/category/12x2 double tiltable laser black.png",link: "#", originalPrice: "$199", price: "$149" },
                          { id: 2, name: "FrostedGlassPendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$249", price: "$199" },
                          { id: 3, name: "Textured Glass Pendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$299", price: "$249" }, 
                          { id: 4, name: "Clear Glass Pendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$199", price: "$149" },
@@ -390,7 +390,7 @@ export const categories = [
                     name:"COB-LIGHT",
                     title: "DOMSERIES",
                    
-                    imgSrc: "../../main/category/DEEP CONE GUN METAL.png",
+                    imgSrc: "/main/category/DEEP CONE GUN METAL.png",
                     description: "Contemporary designs for modern living spaces.",
                     link: "#",
                     subsubcategories: [
@@ -401,7 +401,7 @@ export const categories = [
                         description: "Sleek and stylish glass pendant lights.",
                         link: "#",
                         products: [
-                         { id: 1, name: "DOME-TRIMLESS", imgSrc: "../../main/category/12x2 double tiltable laser black.png",link: "#", originalPrice: "$199", price: "$149" },
+                         { id: 1, name: "DOME-TRIMLESS", imgSrc: "/main/category/12x2 double tiltable laser black.png",link: "#", originalPrice: "$199", price: "$149" },
                          { id: 2, name: "FrostedGlassPendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$249", price: "$199" },
                          { id: 3, name: "Textured Glass Pendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$299", price: "$249" }, 
                          { id: 4, name: "Clear Glass Pendant", imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Pendants_Desktop_b94a9102-3f4f-4110-9b6c-c993f9ffd11c.jpg?v=1734319452&width=5760",link: "#", originalPrice: "$199", price: "$149" },
@@ -480,7 +480,7 @@ export const categories = [
                             {
                               name :"  LASERBLADESERIES",
                               title: "LASERBLADESERIES",
-                              imgSrc: "../../main/category/GIMBAL 30W.png",
+                              imgSrc: "/main/category/GIMBAL 30W.png",
                               description: "Classic designs for timeless elegance.",
                               link: "#",
                               products: [
@@ -494,7 +494,7 @@ export const categories = [
                             {
                               name :" COB SPOTLIGHT/DOWN LIGHT",
                               title: "COB-POTLIGHT-DOWN-LIGHT",
-                              imgSrc: "../../main/category/transparent 5.png",
+                              imgSrc: "/main/category/transparent 5.png",
                               description: "Classic designs for timeless elegance.",
                               link: "#",
                               products: [
@@ -511,8 +511,8 @@ export const categories = [
                {
                               name:"pannel down light",
                                title: "panneldownlight",
-                               video:"../src/components/home/main/122.mp4",
-                               imgSrc: "../../main/panneldown.pngmain/panneldown.png",
+                               video:"/main/122.mp4",
+                               imgSrc: "/main/panneldown.pngmain/panneldown.png",
                                description: "Elegant pendant lights to elevate your home decor.",
                                link: "#",
                                subcategories: [
@@ -531,7 +531,7 @@ export const categories = [
                                        link: "#",
                                        products: [
                                          
-                                        { id: 1, name: "square-pannel-light", imgSrc: "../../",link: "#", originalPrice: "$199", price: "$149" },
+                                        { id: 1, name: "square-pannel-light", imgSrc: "//",link: "#", originalPrice: "$199", price: "$149" },
                                         { id: 2, name: "round-pannel-light", imgSrc: "product2.jpg",link: "#", originalPrice: "$249", price: "$199" },
                                         { id: 3, name: "Big-surface-pannel-light", imgSrc: "product3.jpg",link: "#", originalPrice: "$299", price: "$249" }, 
                                     ] },
@@ -544,8 +544,8 @@ export const categories = [
                              {
                               name:" cliender lights",
                                title: "Cylinderlight",
-                               video:"../src/components/home/main/122.mp4",
-                               imgSrc: "../../main/Categories_chandeliers_2.png",
+                               video:"/main/122.mp4",
+                               imgSrc: "/main/Categories_chandeliers_2.png",
                                description: "Elegant pendant lights to elevate your home decor.",
                                link: "#",
                                subcategories: [
@@ -684,8 +684,8 @@ export const categories = [
                              {
                               name:" pannellight ",
                                title: "pannellight",
-                               video:"../src/components/home/main/122.mp4",
-                               imgSrc: "../../main/pannel.png",
+                               video:"/main/122.mp4",
+                               imgSrc: "/main/pannel.png",
                                description: "Elegant pendant lights to elevate your home decor.",
                                link: "#",
                                subcategories: [
@@ -738,7 +738,7 @@ export const categories = [
                              {
                               name:" gardenlight  ",
                                title: "gardenlight",
-                               video:"../src/components/home/main/122.mp4",
+                               video:"/main/122.mp4",
                                imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Wall_light_Desktop_61ae4eb1-d899-4dce-823d-f4b024d838f7.jpg?v=1734319596&width=5760",
                                description: "Elegant pendant lights to elevate your home decor.",
                                link: "#",
@@ -781,7 +781,7 @@ export const categories = [
                              {
                               name:"   highbaylight  ",
                                title: "highbaylight",
-                               video:"../src/components/home/main/122.mp4",
+                               video:"/main/122.mp4",
                                imgSrc: "https://www.ankurlighting.com/cdn/shop/files/Wall_light_Desktop_61ae4eb1-d899-4dce-823d-f4b024d838f7.jpg?v=1734319596&width=5760",
                                description: "Elegant pendant lights to elevate your home decor.",
                                link: "#",
