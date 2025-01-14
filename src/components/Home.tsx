@@ -13,8 +13,8 @@ import WaveGrid from './home/WaveGrid';
 import MagneticTrackLight from './home/MagneticTrackLight';
 
 import ClientCategories from './home/ClientCategories';
-import bannerr from "../../../pictures/"
-main/category/CHAMP TILTABLE (LOW HEIGHT TILTABLE)/DSC_4166.JPG
+// import bannerr from "../../../pictures/"
+// main/category/CHAMP TILTABLE (LOW HEIGHT TILTABLE)/DSC_4166.JPG
 
 // import DecorativeLighting from './cards'; 
 // import LightingCard from './cardsM';
