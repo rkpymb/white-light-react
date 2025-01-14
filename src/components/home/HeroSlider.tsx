@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react'; 
-// import image2 from "../../../pictures/special/slide1.jpg"
+import image2 from "../../../pictures/special/slide1.jpg"
 import homedecor from "../../../pictures/special/homedecor.jpg"
 import banner from "../../../pictures/mainbanner.png"
 
 const HeroSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const slides = [
-    
-    "src/pictures/special/slide1.jpg",
+    image2,
     homedecor,
     banner,
     

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, Search, ShoppingCart } from 'lucide-react';
-import navlogo1 from "../../src/pictures/navlogo.png"
+import navlogo1 from "../../pictures/navlogo.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
