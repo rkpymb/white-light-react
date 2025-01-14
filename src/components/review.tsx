@@ -103,7 +103,7 @@ const Review: React.FC = () => {
               <div className="testimonial">
                 <div className="pic">
                   <img
-                    src="https://static.pexels.com/photos/529928/pexels-photo-529928.jpeg"
+                    src="/pictures/DSC_4189.JPG"
                     alt="Krystal"
                     className="img-responsive"
                   />
