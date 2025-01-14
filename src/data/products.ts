@@ -256,7 +256,7 @@ export const products1 = [
     discount: 20,
     shortDescription: "Elegant crystal chandelier with modern design",
     description: "Light is a form of energy essential for life on Earth, traveling as electromagnetic waves. It enables vision, drives photosynthesis, and influences biological rhythms. The Sun is the primary natural source, while artificial sources like bulbs and LEDs illuminate our modern world. Light exhibits fascinating properties like reflection, refraction, and dispersion, creating rainbows and optical illusions. It powers technology, including fiber optics, lasers, and solar panels. Culturally, light symbolizes hope, knowledge, and enlightenment. From guiding ships with lighthouses to advancing medicine with lasers, light continues to shape human progress while connecting us to the beauty of the natural world.",
-    image: "../../main/category/HL030.jpeg ",
+    image: "/pictures/category/HD IMAGES 24/DOME SERIES/12W DOME/12W DOME  BLACK.png",
     hoverImage: "src/components/home/main/slider-banner/banner2.jpg",
     additionalImages: [
       "main/New folder/SUNFLOWER.jpeg",
