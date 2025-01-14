@@ -45,7 +45,7 @@ const Home = () => {
       <ProductGrid1 /> 
 
       <Banner
-        imageUrl=""
+        imageUrl="/pictures/DSC_4166.JPG"
         altText="Sample Banner"
         width="100%"
         height="700px"
