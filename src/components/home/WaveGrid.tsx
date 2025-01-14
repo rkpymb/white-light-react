@@ -2,20 +2,20 @@ import React from "react";
 
 const trendingData = [
   {
-    img: "main/New folder/AQUA 7W TO 80W.jpeg",
-    hoverImg: "main/New folder/AQUA IP65.jpeg",
+    img: "/pictures/New folder/AQUA 7W TO 80W.jpeg",
+    hoverImg: "/pictures/New folder/AQUA IP65.jpeg",
     title: "AQUA IP65 ",
     desc: " ",
   },
   {
-    img: "main/New folder/SPIKE SP10 SP20.jpeg",
-    hoverImg: "main/New folder/WhatsApp Image 2022-09-05 at 2.59.40 AM.jpeg",
+    img: "/pictures/New folder/SPIKE SP10 SP20.jpeg",
+    hoverImg: "/pictures/New folder/WhatsApp Image 2022-09-05 at 2.59.40 AM.jpeg",
     title: "SPIKE",
     desc: " ",
   },
   {
-    img: "main/New folder/WhatsApp Image 2024-02-14 at 4.19.30 AM.jpeg",
-    hoverImg: "src/components/home/main/slider-banner/banner3.jpg",
+    img: "/pictures/New folder/WhatsApp Image 2024-02-14 at 4.19.30 AM.jpeg",
+    hoverImg: "src/components/home//pictures/slider-banner/banner3.jpg",
     title: " mash fix",
     desc: "Short description for item 3",
   },
