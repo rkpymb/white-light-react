@@ -346,9 +346,6 @@ export const products1 = [
    
 ];
 
-
-
-
 export const glanzaproduct = [
   {
     id: 1,

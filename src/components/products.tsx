@@ -48,63 +48,7 @@ const Pesto = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <div className="container text-center my-4">
-        <div className="row align-items-center">
-          <div className="col-md-6">
-            <h1>{subsubcategory.name}</h1>
-            <p>{subsubcategory.description}</p>
-          </div>
-          <div className="col-md-6">
-            <img
-              src="https://www.whiteteak.com/media/catalog/category/marquee-collection_exclusive-collection-banner.jpg"
-              alt="Crystal Chandelier"
-              className="img-fluid"
-            />
-          </div>
-        </div>
-        <div className="d-flex justify-content-center mt-4">
-          <button
-            className="btn mx-2"
-            style={{
-              borderColor: "#746B61",
-              color: "#746B61",
-              backgroundColor: "transparent",
-              borderWidth: "2px",
-              borderStyle: "solid",
-              fontWeight: 800,
-            }}
-          >
-            Best Sellers
-          </button>
-          <button
-            className="btn mx-2"
-            style={{
-              borderColor: "#746B61",
-              color: "#746B61",
-              backgroundColor: "transparent",
-              borderWidth: "2px",
-              borderStyle: "solid",
-              fontWeight: 800,
-            }}
-          >
-            New Arrivals
-          </button>
-          <button
-            className="btn mx-2"
-            style={{
-              borderColor: "#746B61",
-              color: "#746B61",
-              backgroundColor: "transparent",
-              borderWidth: "2px",
-              borderStyle: "solid",
-              fontWeight: 800,
-            }}
-          >
-            Deals
-          </button>
-        </div>
-      </div>
+     
 
       {/* Product Cards Section */}
       <div className="trending-section">

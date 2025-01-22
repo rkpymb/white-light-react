@@ -45,10 +45,6 @@ const Navbar = () => {
                   <li><Link to="category/Architecturallight" className="dropdown-item"> PULLOUT SERIES</Link></li>
                   <li><Link to="category/Architecturallight" className="dropdown-item"> LASER BLADE SERIES</Link></li>
                   <li><Link to="category/Architecturallight" className="dropdown-item">  COB SPOTLIGHT/DOWN LIGHT</Link></li>
-                
-                
-                
-                
                 </ul>
               </li>
               <li className="dropdown-item">
