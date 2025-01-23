@@ -39,42 +39,42 @@ const ArchitectureLights = () => {
             hoverImage: '/images/p2.jpg',
             url: ''
 
-        },{
+        }, {
             name: 'this is title',
             image: '/images/p1.jpg',
             hoverImage: '/images/p2.jpg',
             url: ''
 
         }
-        ,{
+        , {
             name: 'this is title',
             image: '/images/p1.jpg',
             hoverImage: '/images/p2.jpg',
             url: ''
 
         }
-        ,{
+        , {
             name: 'this is title',
             image: '/images/p1.jpg',
             hoverImage: '/images/p2.jpg',
             url: ''
 
         }
-        ,{
+        , {
             name: 'this is title',
             image: '/images/p1.jpg',
             hoverImage: '/images/p2.jpg',
             url: ''
 
         }
-        ,{
+        , {
             name: 'this is title',
             image: '/images/p1.jpg',
             hoverImage: '/images/p2.jpg',
             url: ''
 
         }
-        ,{
+        , {
             name: 'this is title',
             image: '/images/p1.jpg',
             hoverImage: '/images/p2.jpg',
@@ -91,7 +91,7 @@ const ArchitectureLights = () => {
 
     return (
         <div >
-          
+
 
 
             <div>
@@ -100,7 +100,7 @@ const ArchitectureLights = () => {
                     <BackgroundAnimation />
                     <div className="section-header mb-8 text-center relative z-10">
                         <h2
-                             className="text-xl lg:text-4xl font-bold"
+                            className="text-xl lg:text-4xl font-bold"
                             style={{ color: "rgba(255, 255, 255, 0.97)" }}
                         >
                             "Architecural Light"
@@ -108,78 +108,56 @@ const ArchitectureLights = () => {
                     </div>
 
                     <Swiper
-                modules={[Navigation, Pagination]}
-                spaceBetween={2}
-                navigation
-                pagination={{ clickable: true }}
-                breakpoints={{
-                    320: {
-                        slidesPerView: 3,
-                        spaceBetween: 2,
-                    },
-                    640: {
-                        slidesPerView: 3,
-                        spaceBetween: 2,
-                    },
-                    768: {
-                        slidesPerView: 5,
-                        spaceBetween: 2,
-                    },
-                    1024: {
-                        slidesPerView: 5,
-                        spaceBetween: 2,
-                    },
-                    1280: {
-                        slidesPerView: 5,
-                        spaceBetween: 2,
-                    },
-                }}
-            >
-                {products.map((category, index) => (
-                    <SwiperSlide
-                        key={index}
-                        className="flex flex-col items-center justify-between cursor-pointer"
-                    // onClick={() => handleCategoryClick(category.catId)}
+                        modules={[Navigation, Pagination]}
+                        spaceBetween={10}
+                        navigation
+                        pagination={{ clickable: true }}
+                        breakpoints={{
+                            320: {
+                                slidesPerView: 3,
+                                spaceBetween: 5,
+                            },
+                            640: {
+                                slidesPerView: 3,
+                                spaceBetween: 5,
+                            },
+                            768: {
+                                slidesPerView: 5,
+                                spaceBetween: 5,
+                            },
+                            1024: {
+                                slidesPerView: 5,
+                                spaceBetween: 10,
+                            },
+                            1280: {
+                                slidesPerView: 5,
+                                spaceBetween: 10,
+                            },
+                        }}
                     >
-                        <Link
+                        {products.map((category, index) => (
+                            <SwiperSlide
+                                key={index}
+                                className="flex flex-col items-center justify-between cursor-pointer bg-white rounded p-2 "
+                            // onClick={() => handleCategoryClick(category.catId)}
+                            >
+                                <div className="rounded- relative scale-110 mt-1">
 
-                            to={`/product/`}
-                            // className="trending-items"
-                            className="relative shadow-lg rounded-lg p-2 cursor-pointer hover:shadow-2xl transition-shadow duration-300 overflow-hidden"
-
-                        >
-                            <div className="rounded- relative scale-110">
-                                <img
-                                    src={'/images/p2.jpg'}
-                                    alt={'d'}
-                                    className="h-40 w-full rounded-4xl object-cover transition-transform duration-300 ease-in-out hover:scale-110"
-                                    style={{ objectFit: "cover" }}
-
-                                />
-                                
-                                <p className="absolute right-2 top-2 bg-white rounded-full p-2 cursor-pointer group">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-5 w-6 group-hover:opacity-50 opacity-70"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="black"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="1.5"
-                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                                    <div className="rounded-full overflow-hidden mx-auto w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-40 lg:h-40">
+                                        <img
+                                            src={category.image}
+                                            alt={category.name}
+                                            className="h-full w-full object-cover transition-transform duration-300 ease-in-out hover:scale-110"
+                                            style={{ objectFit: "cover" }}
                                         />
-                                    </svg>
-                                </p>
-                            </div>
+                                    </div>
 
+                                </div>
 
-                        </Link>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+                                <div className="mt-4 font-bold text-sm lg:text-lg text-center">{category.name}</div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
             </div>
         </div>

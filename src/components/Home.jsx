@@ -50,7 +50,6 @@ const Home = () => {
     
       <ArchitectureLights />
       <CommercialLedLight />
-   
       <Banner
         imageUrl="/pictures/DSC_4166.JPG"
         altText="Sample Banner"
