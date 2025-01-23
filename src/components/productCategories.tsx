@@ -126,7 +126,7 @@ const ProductSlideshow: React.FC = () => {
       </div>
 
       {/* Product Details Section */}
-      <div className="bg-gray-900 text-white flex-grow p-6 rounded-lg text-center lg:text-left">
+      <div className="bg-gray-900 text-white flex-grow p-6 rounded-lg text-center lg:text-left mt-2">
         <h1 className="text-3xl font-bold mb-4">
         Exclusive<span className="text-yellow-400">'s </span>
         </h1>

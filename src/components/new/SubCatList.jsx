@@ -62,19 +62,7 @@ const subCatList = ({categoryId}) => {
     <div>
 
         
-      {/* Hero Slider Section */}
-      <div style={{ width: "100%", height: "300px", overflow: "hidden" }}>
-        <div style={{ position: "relative", width: "100%", height: "100%" }}>
-          {/* Dynamically render the images */}
-          {/* <img
-            src={subcategory?.image}  // Use the image from the fetched data
-            alt={subcategory?.title}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          /> */}
-        </div>
-      </div>
-
-      {/* Categories Section */}
+     
       <div className="container py-5">
         <h2 className="text-center mb-4">Sub Categories</h2>
         <div className="row">

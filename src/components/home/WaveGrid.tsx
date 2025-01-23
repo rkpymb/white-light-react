@@ -16,41 +16,36 @@ const trendingData = [
   {
     img: "/pictures/New folder/WhatsApp Image 2024-02-14 at 4.19.30 AM.jpeg",
     hoverImg: "src/components/home//pictures/slider-banner/banner3.jpg",
-    title: " mash fix",
+    title: "mash fix",
     desc: "Short description for item 3",
   },
 ];
 
-const waveGrid = () => {
+const WaveGrid = () => {
   return (
     <section id="trending" className="trending-section">
-      <div className="containerm">
+      <div>
         <div className="title-section">
-          <h2 className="section-title">Trending Now</h2>
+          <h2 className="section-title text-2xl md:text-3xl lg:text-4xl font-bold text-center">Trending Now</h2>
         </div>
-        <div className="trending-items">
+
+        <div className="flex flex-wrap gap-4">
           {trendingData.map((item, index) => (
-            <div className="trending-item" key={index}>
-              <div className="image-wrapper">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="trending-img default-img"
-                />
-                <img
-                  src={item.hoverImg}
-                  alt={item.title}
-                  className="trending-img hover-img"
-                />
+            <div key={index}>
+              <div className="relative overflow-hidden rounded-t-[50%] shadow">
+                <img src={item.img} alt={item.title} className="w-full h-24 md:h-48 lg:h-64 object-cover" />
               </div>
-              <h3>{item.title}</h3>
-              <p>{item.desc}</p>
+              <div className="p-2 md:p-4 bg-white border shadow">
+                <h2 className="text-sm md:text-lg lg:text-xl font-semibold text-center">{item.title}</h2>
+              </div>
             </div>
           ))}
         </div>
+
+
       </div>
     </section>
   );
 };
 
-export default waveGrid;
+export default WaveGrid;

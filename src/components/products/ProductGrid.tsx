@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { products1 } from "../../data/products";
-import BackgroundAnimation from "../BackgroundAnimation"; // Ensure this file path is correct
+import BackgroundAnimation from "../BackgroundAnimation"; 
 
 const ProductGrid: React.FC = () => {
   return (
@@ -57,23 +57,8 @@ const ProductGrid: React.FC = () => {
                   </svg>
                 </p>
               </div>
-              <div className="mt-4 pl-2 mb-2 flex justify-between">
-                <div>
-                  {/* <p className="text-sm font-semibold text-gray-900 mb-0">
-                    {product.name}
-                  </p> */}
-                </div>
-              </div>
-              {/* <div className="mt-1 flex items-center justify-between">
-                <span className="text-sm font-bold text-gray-900">
-                  ₹{product.price}
-                </span>
-                {product.discount && (
-                  <span className="text-xs text-green-600">
-                    -{product.discount}% off
-                  </span>
-                )}
-              </div> */}
+              
+             
             </Link>
           ))}
         </div>
