@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination ,Autoplay} from "swiper/modules";
 import config from "../../data/config";
 
 import BackgroundAnimation from "../BackgroundAnimation";
@@ -13,75 +13,51 @@ import BackgroundAnimation from "../BackgroundAnimation";
 const CommercialLedLight = () => {
     const [products, setProducts] = useState([
         {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
+            name: 'Tiltable Track Light',
+            image: '/images/TILTABLETRACKLIGHT.png',
+            hoverImage: '/images/TILTABLETRACKLIGHT.png',
             url: ''
 
         },
         {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
+            name: 'Tiltable Concealed Light',
+            image: '/images/TiltableConcealedLight.png',
+            hoverImage: '/images/TiltableConcealedLight.png',
             url: ''
 
         },
         {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
+            name: 'IP65 Spot Light',
+            image: '/images/IP65SPOTLIGHT.png',
+            hoverImage: '/images/IP65SPOTLIGHT.png',
+            url: ''
+
+        },
+        
+        {
+            name: 'Tiltable Surface Light',
+            image: '/images/TiltableSurfaceLight.png',
+            hoverImage: '/images/TiltableSurfaceLight.png',
             url: ''
 
         },
         {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
+            name: ' 2022 Wall Light',
+            image: '/images/wall-light.png',
+            hoverImage: '/images/wall-light.png',
             url: ''
 
-        }, {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
+        }, 
+        {
+            name: 'Garden Light',
+            image: '/images/garden-light.png',
+            hoverImage: '/images/garden-light.png',
             url: ''
 
-        }
-        , {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
-            url: ''
-
-        }
-        , {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
-            url: ''
-
-        }
-        , {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
-            url: ''
-
-        }
-        , {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
-            url: ''
-
-        }
-        , {
-            name: 'this is title',
-            image: '/images/p1.jpg',
-            hoverImage: '/images/p2.jpg',
-            url: ''
-
-        }
-
+        },
+       
+       
+        
     ]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
@@ -107,9 +83,13 @@ const CommercialLedLight = () => {
                     </div>
 
                     <Swiper
-                        modules={[Navigation, Pagination]}
+                       modules={[Navigation, Pagination, Autoplay]}
                         spaceBetween={10}
                         navigation
+                        autoplay={{
+                            delay: 3500, 
+                            disableOnInteraction: false, 
+                        }}
                         pagination={{ clickable: true }}
                         breakpoints={{
                             320: {

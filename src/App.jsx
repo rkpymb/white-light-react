@@ -12,6 +12,8 @@ import ProductsPageData from './components/ProductsPageData';
 
 import Kart from './components/kart';
 import Product from './components/Product';
+import Aboutus from './components/Aboutus';
+import ContactUs from './components/ContactUs';
 function App() {
   return (
     <Router>
@@ -28,6 +30,8 @@ function App() {
           <Route path="/products-list/:id" element={<ProductsPageData />} />
           <Route path="/pro/:id" element={<Kart />} />
           <Route path="/product-data/:id" element={<Product />} />
+          <Route path="/about-us" element={<Aboutus />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
 
         <Footer />

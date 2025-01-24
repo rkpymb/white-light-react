@@ -1,6 +1,6 @@
 
 const config = {
-    apiEndpoint: "https://demoapi.hormosync.com",
+    apiEndpoint: "https://api.whitelightenterprises.in",
 };
 
 export default config;

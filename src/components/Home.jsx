@@ -44,8 +44,6 @@ const Home = () => {
       <Categories />
       <br />
       <ProductSlideshow />
-
-
       <WaveGrid />
     
       <ArchitectureLights />

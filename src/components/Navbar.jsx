@@ -84,9 +84,9 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <Link to="/stationery" className="nav-link">Lighting</Link>
-          <Link to="/sale" className="nav-link">Sale</Link>
-          <Link to="/gift-card" className="nav-link">Gift Card</Link>
+          <Link to="/about-us" className="nav-link">About</Link>
+          <Link to="/contact-us" className="nav-link">Contact us</Link>
+         
         </div>
 
         {/* Right Section: Log In and Cart */}

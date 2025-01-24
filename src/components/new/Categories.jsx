@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination,Autoplay } from "swiper/modules";
 import config from "../../data/config"; 
 
 const Categories = () => {
@@ -65,7 +65,11 @@ const Categories = () => {
         <div className="text-center text-red-500">Failed to load categories. Please try again later.</div>
       ) : (
         <Swiper
-          modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
+        autoplay={{
+          delay: 2000, 
+          disableOnInteraction: false, 
+      }}
           spaceBetween={10}
           navigation
           pagination={{ clickable: true }}

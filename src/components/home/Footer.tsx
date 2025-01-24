@@ -4,40 +4,53 @@ const Footer = () => {
     return (
         <footer className="bg-[#f8ede4] text-gray-800 py-10 border-t">
             <div className="container mx-auto px-4">
-            <img src="main/White light A6-1.png" height="60px" width="70px" />
+
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Shop Section */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Shop</h3>
-                        <ul>
-                            <li>All</li>
-                            <li>Home & Living</li>
-                            <li>Accessories</li>
-                            <li>Stationery</li>
-                            <li>Sale</li>
-                            <li>Gift Card</li>
+                        <img src="pictures/navlogo.png" height="60px" width="70px" />
+                        <p className='text-sm mt-2'> Whitelight Enterprises – Your Trusted Partner for Premium LED Lighting Solutions
+                            We specialize in the manufacturing and trading of a wide range of high-quality lighting products, including Street Lights, Ceiling Lights, Chandeliers, LED Downlights, Spotlights, Floodlights, and more. With over 5 years of experience, we offer innovative and energy-efficient lighting solutions for commercial, residential, industrial, and architectural applications.</p>
+                    </div>
+                    <div>
+                        <h3 className="font-bold text-lg mb-4">Our Product Range Includes:</h3>
+                        <ul className='text-sm flex flex-col gap-2 capitalize'>
+                            <li><span className='font-semibold'>Commercial led light:</span> Cob Spotlight , Gimbal Downlight,Zoom Downlight</li>
+                            <li><span className='font-semibold'>Pannel Light:</span> Tracklight/Concealed , Titletable-Track/3. Concealed/Surface,Wall Light, Surface Cylinder,Led Strip /Smpss,2x2 Recess/Surface</li>
+                            <li><span className='font-semibold'>Graden Light:</span>Up /Down 2.Walllight,Street Light,Flood/Modular 5.Light/Highbay</li>
+                            
+                            
+                           
                         </ul>
                     </div>
 
                     {/* Policy Section */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Helpful Links</h3>
-                        <ul>
-                            <li>FAQ</li>
-                            <li>Terms & Conditions</li>
-                            <li>Privacy Policy</li>
-                            <li>Shipping Policy</li>
-                            <li>Refund Policy</li>
-                            <li>Cookie Policy</li>
+                        <h3 className="font-bold text-lg mb-4">Why Choose Us?
+                        </h3>
+                        <ul className='text-sm flex flex-col gap-2'>
+                            <li>High-Quality Products</li>
+                            <li>Custom Lighting Solutions</li>
+                            <li>Advanced Manufacturing Techniques</li>
+                            <li>Timely Delivery & Support</li>
+                            <li>Expertise in LED and Energy-Efficient Technologies</li>
+
                         </ul>
                     </div>
 
+
                     {/* Contact Section */}
                     <div>
-                        <h3 className="font-bold text-lg mb-4">Contact</h3>
-                        <p>whitelightenterprises@gmail.com </p>
-                        <p>9168948474/8692970696</p>
-                        <p>E/403, Poonam Orchid, Yashwant Nagar, Virar West, Thane, Maharashtra, India Palghar - 401303,</p>
+                        <h3 className="font-bold text-lg mb-4">Get in Touch:</h3>
+                        <div className='text-sm flex flex-col gap-2'>
+                            <p>Website : whitelightenterprises.in </p>
+                            <p>Email: info@whitelightenterprises.in</p>
+                            <p>Phone:   +91 8692970696,  +91 9168948474,+91 8692948474</p>
+                            <div>
+                                <p>Virar Office: E/403, Poonam Orchid, Yashwant Nagar, Virar West, Palghar - 401303, Thane, Maharashtra, India</p>
+                                <p>Vasai Office: Building No. 3, Bhoomi Ind. Estate, Gala No.100, Sativali Rd, Waliv Phata, Vasai East, Vasai-Virar, Maharashtra 401208</p>
+                            </div>
+                        </div>
                         <div className="flex space-x-4 mt-4">
                             <a href="#"><img src="src\components\home\main\socials\facebook.png" alt="Facebook" className="w-8 h-8" /></a>
                             <a href="#"><img src="src\components\home\main\socials\insta.png" alt="Instagram" className="w-8 h-8" /></a>
@@ -45,33 +58,10 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Subscribe Section */}
-                    <div>
-                        <h3 className="font-bold text-lg mb-4">Subscribe</h3>
-                        <p className="text-sm mb-4">
-                            Subscribe to our newsletter and be among the first to hear about new arrivals, events, and special offers.
-                        </p>
-                        <form className="flex flex-col space-y-2">
-                            <input
-                                type="email"
-                                placeholder="Email *"
-                                className="border rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-400"
-                            />
-                            <label className="flex items-center text-sm">
-                                <input type="checkbox" className="mr-2" />
-                                Yes, subscribe me to your newsletter.
-                            </label>
-                            <button
-                                type="submit"
-                                className="bg-black text-white rounded py-2 hover:bg-gray-800 transition"
-                            >
-                                Subscribe
-                            </button>
-                        </form>
-                    </div>
+
                 </div>
                 <div className="mt-8 text-center text-sm text-gray-600">
-                    © 2025 created by shivam srivastava
+                    © 2025 whitelightenterprises.in, all rights reserved
                 </div>
             </div>
         </footer>
